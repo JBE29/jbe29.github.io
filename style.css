@@ -1,6 +1,15 @@
 *{
-    background-color: black;
+    background-color:black;
 }
 .navbar{
     height: 50px;
+}
+@media screen and (max-width: 900px) 
+{
+.row
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 }
