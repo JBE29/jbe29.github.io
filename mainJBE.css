@@ -16,5 +16,10 @@ header {
 
 .blocdumil{
     border:1px solid red;
-    height: 1000px;
+    height: 700px;
+    padding-left: 20px;
+}
+
+footer{
+    border:1px solid red;
 }
