@@ -93,3 +93,19 @@ form input[type=text], form input[type=email], form textarea {
 .hidden {
     display: none;
 }
+
+footer {
+    background-color: #c6dab0;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+}
+
