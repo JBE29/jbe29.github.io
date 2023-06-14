@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elorn TP - Entreprise de travaux publics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Elorn TP" class="logo">
+        <h1>PENCRAN</h1>
+        <p>06 78 94 16 52</p>
+    </header>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Terrassement</li>
+            <li>Assainissement</li>
+            <li>Mise aux normes</li>
+            <li>Travaux publics</li>
+        </ul>
+    </section>
+
+    <section id="presentation">
+        <h2>Présentation de l'entreprise</h2>
+        <div class="responsive-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="submit_form.php" method="post" class="centered-form">
+            <label for="name">Nom:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <div id="cookie-consent-popup" class="hidden">
+        <p>Nous utilisons des cookies pour améliorer votre expérience. En utilisant notre site, vous consentez à notre politique de cookies.</p>
+        <button id="accept">Accepter</button>
+        <button id="decline">Refuser</button>
+    </div>
+
+    <footer>
+        <p>© 2023 Elorn TP. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
